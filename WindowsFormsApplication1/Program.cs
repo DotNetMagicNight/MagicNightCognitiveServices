@@ -13,6 +13,7 @@ namespace MagicNightAzureApplication {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //MagicNight.LoadFiles();
             Application.Run(new Form1());
         }
     }

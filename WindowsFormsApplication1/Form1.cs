@@ -3,6 +3,25 @@ using System.Drawing;
 using System.Windows.Forms;
 
 namespace MagicNightAzureApplication {
+
+    public enum GenderEnum {
+        Undefined,
+        Male,
+        Female
+    }
+
+    public enum EmotionEnum {
+        Undefined,
+        Anger,
+        Contempt,
+        Disgust,
+        Fear,
+        Happiness,
+        Neutral,
+        Sadness,
+        Surprise
+    } 
+
     public partial class Form1 : System.Windows.Forms.Form {
         private readonly MagicNight _magicNight;
 
