@@ -44,6 +44,7 @@ namespace MagicNightAzureApplication {
             Surprise
         }
 
+        // Initialize with your API keys
         private readonly IFaceServiceClient faceServiceClient = new FaceServiceClient("xxx");
         private readonly EmotionServiceClient emotionServiceClient = new EmotionServiceClient("xxx");
         private readonly string[] imageUrls = new[] {
