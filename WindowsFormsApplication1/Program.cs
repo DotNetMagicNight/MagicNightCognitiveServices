@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MagicNightAzureApplication {
@@ -13,7 +10,6 @@ namespace MagicNightAzureApplication {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //MagicNight.LoadFiles();
             Application.Run(new Form1());
         }
     }
